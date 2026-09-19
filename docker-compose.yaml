@@ -1,6 +1,6 @@
 services:
   simpleblog:
-    build: .
+    image: wiraaja1/simple-blog:latest
     depends_on:
       - postgresdb
     volumes:
